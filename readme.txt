@@ -4,7 +4,7 @@ Steps to reproduce:
 
 a) on packaged Jetty Server:
 - mvn clean package
-- start JettyClient on port
+- start JettyServer on port 8080
 
 b) on Tomcat 10.1 Server:
 - install a Tomcat Server 10.1 instance with default settings (requires Java 17)

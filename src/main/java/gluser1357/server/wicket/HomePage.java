@@ -1,4 +1,4 @@
-package gluser1357.server;
+package gluser1357.server.wicket;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.request.mapper.parameter.PageParameters;

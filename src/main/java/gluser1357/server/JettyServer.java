@@ -1,11 +1,11 @@
-package gluser1357.client;
+package gluser1357.server;
 
 import java.io.File;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
 
-public class JettyClient {
+public class JettyServer {
 
 	public static void main(String[] args)
 	throws Exception {

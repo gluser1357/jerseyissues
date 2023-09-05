@@ -1,4 +1,4 @@
-package gluser1357.server;
+package gluser1357.server.wicket;
 
 import org.apache.wicket.protocol.http.WebApplication;
 
