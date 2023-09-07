@@ -1,4 +1,4 @@
-package gluser1357.server.wicket;
+package gluser1357;
 
 import java.util.ArrayList;
 import java.util.Arrays;
