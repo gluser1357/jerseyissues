@@ -45,7 +45,7 @@ extends Panel {
 		};
 		rowPanel.add(list);
 		
-		addLink("addRow", rowPanel, form, errors, list);
+		addLink("addRow____", rowPanel, form, errors, list);
 		addLink("addRowWith", rowPanel, form, errors, list); // id evaluated in FirstFilter.java
 	}
 	
