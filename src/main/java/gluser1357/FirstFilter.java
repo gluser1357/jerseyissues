@@ -24,6 +24,7 @@ extends HttpFilter {
 		 if (request.getContentType() != null && request.getContentType().toLowerCase().contains("application/x-www-form-urlencoded")) {
 
 			 LOG.info("");
+			 LOG.info("QueryString: " + request.getQueryString());
 			 LOG.info("Content-Type: " + request.getContentType());
 			 LOG.info("Content-Length: " + request.getContentLength());
 	
