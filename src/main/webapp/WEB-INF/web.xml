@@ -5,6 +5,18 @@
 
 	<display-name>jerseyissues</display-name>
 
+	<!--
+	<filter>
+		<filter-name>ReadParamsIfFormEncodedFilter</filter-name>
+		<filter-class>gluser1357.ReadParamsIfFormEncodedFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+	    <filter-name>ReadParamsIfFormEncodedFilter</filter-name>
+	    <url-pattern>/*</url-pattern>
+	</filter-mapping>
+	-->
+	
 	<filter>
     	<filter-name>FirstFilter</filter-name>
     	<filter-class>gluser1357.FirstFilter</filter-class>
