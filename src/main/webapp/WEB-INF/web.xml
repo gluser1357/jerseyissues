@@ -6,6 +6,18 @@
         version = "5.0"
         metadata-complete = "false">
 
+	<!--
+	<filter>
+    	<filter-name>ReadParamsIfFormEncodedFilter</filter-name>
+    	<filter-class>gluser1357.ReadParamsIfFormEncodedFilter</filter-class>
+  	</filter>
+  
+ 	<filter-mapping>
+	    <filter-name>ReadParamsIfFormEncodedFilter</filter-name>
+	    <url-pattern>/*</url-pattern>
+ 	</filter-mapping>
+ 	-->
+
 	<filter>
 		<filter-name>Jersey</filter-name>
 		<filter-class>org.glassfish.jersey.servlet.ServletContainer</filter-class>
