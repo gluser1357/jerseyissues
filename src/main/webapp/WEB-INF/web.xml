@@ -11,22 +11,22 @@
 		<filter-class>org.glassfish.jersey.servlet.ServletContainer</filter-class>
 		<init-param>
 			<param-name>jakarta.ws.rs.Application</param-name>		
-	       	<param-value>gluser1357.server.MyResourceConfig</param-value>
+	       	<param-value>gluser1357.MyResourceConfig</param-value>
 	    </init-param>
     </filter>
 
 	<filter-mapping>
 		<filter-name>Jersey</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/jersey/*</url-pattern>
 	</filter-mapping>
 
 	<filter>
-    	<filter-name>PrintFormFilter</filter-name>
-    	<filter-class>gluser1357.server.PrintFormFilter</filter-class>
+    	<filter-name>MyFilter</filter-name>
+    	<filter-class>gluser1357.MyFilter</filter-class>
   	</filter>
   
  	<filter-mapping>
-	    <filter-name>PrintFormFilter</filter-name>
+	    <filter-name>MyFilter</filter-name>
 	    <url-pattern>/*</url-pattern>
  	</filter-mapping>
 
